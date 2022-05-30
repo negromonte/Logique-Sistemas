@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Open+Sans:ital,wght@1,300&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 14px Roboto, sans-serif;
+   /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background: #1E272E;
+    -webkit-font-smoothing: antialiased;
+}
+
+input, button, textarea {
+    font: 400 18px Roboto, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+form input {
+    width: 100%;
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 0 24px;
+}
+
+.content {
+    background: gray;
+    border-radius: 8px;
+}
+
+.button {
+    width: 100%;
+    height: 60px;
+    background: rgb(16, 173, 16);
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 8px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter .2s;
+}
+
+.button:hover {
+    filter: brightness(80%);
+}
+
+.back-Link {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #1E272E;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.back-Link svg {
+    margin-right: 8px;
+}
+
+.back-Link:hover {
+    opacity: 0.8;
+}
